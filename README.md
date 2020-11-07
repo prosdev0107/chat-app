@@ -1,4 +1,4 @@
-#Chat Users screen
+# Chat Users screen
 Develop a fully functional filterable chat screen
 
 - React App: https://chat-app-me6tkjtz8.vercel.app/
