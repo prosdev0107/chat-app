@@ -32,7 +32,7 @@ export default function LeftPanel() {
     }
     if (type === 'flagged' && elem.isFavorite) {
       return (
-        elem.messages.length > 0 ||
+        elem.conversation ||
         (searchName && (elem.firstName.includes(searchName) || elem.lastName.includes(searchName)))
       );
     }
