@@ -1,0 +1,59 @@
+.conversation-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 20px;
+  border-bottom: 1px solid #d5d6d9;
+  cursor: pointer;
+
+  .avatar {
+    min-width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    background-color: #dadbde;
+    border-radius: 50%;
+  }
+
+  &.selected {
+    border-left: 3px solid #1d2e48;
+    background-color: #f8f8f8;
+  }
+
+  .content {
+    width: 100%;
+    height: 67%;
+    margin-right: 10px;
+    text-align: left;
+
+    .name {
+      margin: 0;
+      color: #000012;
+      font-size: 14px;
+    }
+
+    .last-message {
+      height: 30px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      color: #d5d6d9;
+      font-size: 12px;
+    }
+  }
+
+  .trailer {
+    text-align: center;
+    .last-seen {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #d5d6d9;
+      font-size: 14px;
+    }
+
+    .flag-icon {
+      cursor: pointer;
+    }
+  }
+}

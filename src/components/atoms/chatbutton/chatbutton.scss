@@ -1,0 +1,15 @@
+.chatbutton-main {
+  min-width: 40px;
+  padding: 0;
+  background: #202f48;
+  svg {
+    fill: white;
+  }
+
+  &:active {
+    background: transparent;
+    svg {
+      fill: #202f48;
+    }
+  }
+}
